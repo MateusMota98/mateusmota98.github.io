@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mateus Mota - Cibersegurança</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Roboto&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body, html {
+      height: 100%;
+      font-family: 'Roboto', sans-serif;
+      background: #0a0f22;
+      color: #c0c8d8;
+      overflow-x: hidden;
+      position: relative;
+      min-height: 100vh;
+    }
+    #particles-js {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      top: 0; left: 0;
+      background: #0a0f22;
+    }
+    header {
+      padding: 2rem;
+      text-align: center;
+      color: #00ffff;
+      font-family: 'Fira Mono', monospace;
+      text-shadow: 0 0 8px #00ffff;
+    }
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid #00ffff;
+      box-shadow: 0 0 12px #00ffff;
+      margin-bottom: 1rem;
+    }
+    header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+    header p { font-size: 1.2rem; opacity: 0.8; }
+    main {
+      max-width: 900px;
+      margin: 2rem auto 4rem;
+      padding: 0 1rem;
+    }
+    section {
+      background: rgba(0, 255, 255, 0.1);
+      margin-bottom: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,255,255,0.15);
+      padding: 1.5rem 2rem;
+      transition: transform 0.3s ease;
+    }
+    section:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 25px rgba(0,255,255,0.35);
+    }
+    section h2 {
+      color: #00ffff;
+      font-family: 'Fira Mono', monospace;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #00ffff;
+      padding-bottom: 0.3rem;
+    }
+    ul { list-style: none; line-height: 1.6; }
+    a { color: #00ffff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+<div id="particles-js"></div>
+<header>
+  <img src="avatar_mateus.png" alt="Mateus Mota" />
+  <h1>Mateus Mota</h1>
+  <p>Profissional de Cibersegurança | Segurança Digital & Governança</p>
+</header>
+
+<main>
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Profissional em início de carreira na área de cibersegurança, com conhecimentos sólidos em governança, auditoria e segurança técnica. Experiência prática em resposta a incidentes, análise de vulnerabilidades e gerenciamento de riscos. Apaixonado por segurança da informação e sempre em busca de aprimoramento contínuo. Busco oportunidades no Brasil e na União Europeia com disponibilidade para mudança.</p>
+  </section>
+  <section id="certificacoes">
+    <h2>Certificações</h2>
+    <ul>
+      <li>Ensino Superior em Cibersegurança (Unv. Anhaguera)</li>
+      <li>Google Cybersecurity (Coursera)</li>
+      <li>Google Cloud Introduction (Coursera)</li>
+      <li>Cisco: Introdução ao Pentest</li>
+      <li>TryHackMe: SOC Nível 1</li>
+      <li>Business English (University of Pennsylvania - em andamento)</li>
+      <li>Práticas no Duolingo</li>
+    </ul>
+  </section>
+  <section id="projetos">
+    <h2>Projetos e Laboratórios</h2>
+    <ul>
+      <li>SpiderFoot OSINT: coleta automatizada de dados</li>
+      <li>Kali Linux: UFW, auditd, chkrootkit</li>
+      <li>TryHackMe Labs: Segurança de redes, análise com Any.run, Resposta a Incidentes</li>
+      <li>Curso de Cibersegurança (Coursera): Linux, Windons, SIEM, Tcpdump, Python, Wireshark e auditorias</li>
+      <li>MITRE ATT&CK: simulação de táticas e defesas</li>
+      <li>Projetos de Auditoria e Gestão de conformidade : simulação de testes no mundo real</li>
+    </ul>
+  </section>
+  <section id="tecnologias">
+    <h2>Tecnologias</h2>
+    <ul>
+      <li>Linux, Windons, Python, Kali Linux, Wireshark, Burp Suite</li>
+      <li>SIEM, Tcpdump, Nmap, Spiderfoot, MITRE ATT&CK</li>
+    </ul>
+  </section>
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Email: <a href="mailto:mateusromualdo888@gmail.com">mateusromualdo888@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/mateus-mota-a18b7a1a6" target="_blank">linkedin.com/in/mateus-mota-a18b7a1a6</a></p>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 Mateus Mota - Todos os direitos reservados
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script>
+particlesJS('particles-js', {
+  "particles": {
+    "number": { "value": 80, "density": { "enable": true, "value_area": 800 } },
+    "color": { "value": "#00ffff" },
+    "shape": { "type": "circle" },
+    "opacity": { "value": 0.6 },
+    "size": { "value": 3, "random": true },
+    "line_linked": {
+      "enable": true,
+      "distance": 120,
+      "color": "#00ffff",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 2,
+      "direction": "none"
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": { "enable": true, "mode": "grab" },
+      "onclick": { "enable": true, "mode": "push" }
+    },
+    "modes": {
+      "grab": { "distance": 150, "line_linked": { "opacity": 0.6 } },
+      "push": { "particles_nb": 4 }
+    }
+  },
+  "retina_detect": true
+});
+</script>
+</body>
+</html>
